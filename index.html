@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+  </head>
+  <body>
+    <div class="data-storage-container container">
+      <!-- ************************** -->
+      <!-- FILE UPLOAD CARD  -->
+      <div class="file-upload-card">
+        <img class="card-logo" src="images/logo.svg" alt="" />
+
+        <div class="logos">
+          <img
+            class="logo"
+            src="images/icon-document.svg"
+            alt="document logo"
+          />
+          <img class="logo" src="images/icon-folder.svg" alt="folder logo" />
+          <img class="logo" src="images/icon-upload.svg" alt="file upload" />
+        </div>
+      </div>
+
+      <!-- ************************** -->
+      <!-- TRAFFIC CHOOSE CARD  -->
+      <div class="traffic-choice-card">
+        <p class="traffic-choice-heading">
+          You’ve used <span class="used-internet"> 815 GB</span> of your storage
+        </p>
+        <div class="traffic-picker"></div>
+        <div class="traffic-numbers">
+          <span class="number number-small"> o GB </span>
+          <span class="number number-big"> 1000 GB </span>
+        </div>
+        <div class="traffic-amount">
+          <span class="traffic-amount--number">185</span>
+          <span class="traffic-amount--word">GB LEFT</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
